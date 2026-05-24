@@ -1,0 +1,742 @@
+{
+  "codigo": "6403510000",
+  "descripcion": "Calzado, polainas y artículos análogos; partes de estos artículos Calzado con suela de caucho, plástico, cuero natural o regenerado y parte superior de cuero natural. - Los demás calzados, con suela de cuero natural: - - Que cubran el tobillo",
+  "unidad": "2u - Par",
+  "importaciones": {
+    "gravamen": [
+      {
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Tarifa - Fórmula": "15%",
+        "Desde": "01-ene-2017",
+        "Hasta": "..."
+      }
+    ],
+    "iva": [
+      {
+        "Tarifa - Fórmula": "19%",
+        "Desde": "01-ene-2017",
+        "Hasta": "..."
+      }
+    ],
+    "tlc": [
+      {
+        "Acuerdo": "001-Acuerdo de Cartagena",
+        "País": "BOLIVIA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "0.00 %",
+        "Tasa PID": "",
+        "Desde": "01-ene-2007",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "001-Acuerdo de Cartagena",
+        "País": "ECUADOR",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "0.00 %",
+        "Tasa PID": "",
+        "Desde": "01-ene-2007",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "001-Acuerdo de Cartagena",
+        "País": "PERU",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "0.00 %",
+        "Tasa PID": "",
+        "Desde": "01-feb-2008",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "011-Argentina con cód 011 (MERCOSUR)",
+        "País": "ARGENTINA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "0.00 %",
+        "Tasa PID": "",
+        "Desde": "01-ene-2018",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "014-Brasil con Código 014 (MERCOSUR)",
+        "País": "BRASIL",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "0.00 %",
+        "Tasa PID": "",
+        "Desde": "01-ene-2018",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "017-Chile con cod. acuerdo 17",
+        "País": "CHILE",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ene-2007",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "021-México con cod. acuerdo 21",
+        "País": "MEXICO",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ene-2007",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "024-Paraguay con codg. 024 (MERCOSUR)",
+        "País": "PARAGUAY",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "0.00 %",
+        "Tasa PID": "",
+        "Desde": "01-ene-2018",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "027-Uruguay con cód 027 (MERCOSUR)",
+        "País": "URUGUAY",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "0.00 %",
+        "Tasa PID": "",
+        "Desde": "01-ene-2018",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "034-Cuba con código Acuerdo 034",
+        "País": "CUBA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "0.00 %",
+        "Tasa PID": "",
+        "Desde": "06-nov-2008",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "057-Preferencia Arancelaria Regional (PAR) para Paraguay",
+        "País": "PARAGUAY",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "9.90 %",
+        "Indice": "66.00 %",
+        "Tasa PID": "",
+        "Desde": "01-ene-2007",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "086-AAP. Con Venezuela - cód acuerdo 086",
+        "País": "VENEZUELA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "6.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "09-jun-2023",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "090-ALC. con Suiza y Liechtenstein - cód acuerdo 090",
+        "País": "LIECHTENSTEIN",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-jul-2020",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "090-ALC. con Suiza y Liechtenstein - cód acuerdo 090",
+        "País": "SUIZA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-jul-2020",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "093-TLC. con Canadá - cód acuerdo 093",
+        "País": "CANADA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "15-ago-2011",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "096-TLC. con EEUU - cód acuerdo 096- general",
+        "País": "ESTADOS UNIDOS",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "15-may-2012",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "096-TLC. con EEUU - cód acuerdo 096- general",
+        "País": "PUERTO RICO",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "15-may-2012",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "ALEMANIA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "AUSTRIA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "BELGICA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "BULGARIA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "CHIPRE",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "DINAMARCA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "ESLOVAQUIA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "ESLOVENIA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "ESPAÑA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "ESTONIA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "FINLANDIA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "FRANCIA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "GRECIA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "HUNGRIA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "IRLANDA (EIRE)",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "ITALIA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "LETONIA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "LITUANIA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "LUXEMBURGO",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "MALTA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "PAISES BAJOS(HOLANDA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "POLONIA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "PORTUGAL",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "REINO UNIDO",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "REPUBLICA CHECA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "RUMANIA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "124-AC. con UE - cód acuerdo 124 - general",
+        "País": "SUECIA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ago-2013",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "140- ALC. cn Noruega-cód acuerdo 140-Grav General",
+        "País": "NORUEGA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-sep-2023",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "146- ALC Islandi-cód acdo 146-Grav General",
+        "País": "ISLANDIA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-oct-2023",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "151-Alianza Pacífico - Chile Cód. 151",
+        "País": "CHILE",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "29-abr-2016",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "152-Alianza Pacífico - México Cód. 152",
+        "País": "MEXICO",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "29-abr-2016",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "153-Alianza Pacífico - Perú Cód. 153",
+        "País": "PERU",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "29-abr-2016",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "156-COREA Cod. 156",
+        "País": "COREA DEL SUR, REPUB",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ene-2025",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "160-Costa Rica - General",
+        "País": "COSTA RICA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ene-2021",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "211-211 ACE 72 General",
+        "País": "ARGENTINA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ene-2018",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "214-214 ACE 72 G",
+        "País": "BRASIL",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ene-2018",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "218-218 ACE 72 Gen",
+        "País": "PARAGUAY",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "29-ene-2019",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "220-220 ACE72 URG",
+        "País": "URUGUAY",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "11-jun-2018",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "229-TRATADO DE LIBRE COMERCIO ENTRE COLOMBIA E ISRAEL",
+        "País": "ISRAEL",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "01-ene-2026",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "235-REINO UNIDO TARIFA GENERAL",
+        "País": "IRLANDA (EIRE)",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "28-jun-2022",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "235-REINO UNIDO TARIFA GENERAL",
+        "País": "REINO UNIDO",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "28-jun-2022",
+        "Hasta": "..."
+      },
+      {
+        "Acuerdo": "250-ACE 49 COL-CUBA Tarifa General",
+        "País": "CUBA",
+        "Concepto": "GRAVAMEN ARANCELARIO",
+        "Gravamen": "0.00 %",
+        "Indice": "",
+        "Tasa PID": "",
+        "Desde": "23-nov-2023",
+        "Hasta": "..."
+      }
+    ],
+    "regimen_comercio": [
+      {
+        "Concepto": "LIBRE IMPORTACIÓN",
+        "Desde": "01-ene-2007",
+        "Hasta": "01-ene-2007"
+      }
+    ],
+    "indice_alfabetico": [
+      {
+        "Termino clave": "Calzado de cuero natural, que cubran el tobillo, suela de caucho, plástico o cuero natural",
+        "Desde": "01-ene-2007",
+        "Hasta": "..."
+      },
+      {
+        "Termino clave": "Zapatos de cuero natural, que cubran el tobillo, suela de caucho, plástico o cuero natural",
+        "Desde": "01-ene-2007",
+        "Hasta": "..."
+      }
+    ],
+    "documentos": [
+      {
+        "Documento - Entidad": "ETIQUETADO -",
+        "Trámite": "PREVIO",
+        "Requisito": "OPCIONAL",
+        "Electrónico": "NO",
+        "Desde": "01-ene-2017",
+        "Hasta": "...",
+        "Paises": ""
+      },
+      {
+        "Documento - Entidad": "Inscripcion Registro de fabricantes e importadores de SIC -",
+        "Trámite": "PREVIO",
+        "Requisito": "OPCIONAL",
+        "Electrónico": "NO",
+        "Desde": "01-ene-2017",
+        "Hasta": "...",
+        "Paises": ""
+      }
+    ],
+    "descripciones": [
+      {
+        "Orden": "1",
+        "Código": "73",
+        "Descripción": "Nombre Comercial",
+        "Tipo de dato": "TEXTO",
+        "Longitud": "60",
+        "Decimales": "",
+        "Obligatorio": "SI",
+        "Desde": "23-ago-2008",
+        "Hasta": "...",
+        "Detalle": ""
+      },
+      {
+        "Orden": "2",
+        "Código": "74",
+        "Descripción": "Otras características",
+        "Tipo de dato": "TEXTO",
+        "Longitud": "4000",
+        "Decimales": "",
+        "Obligatorio": "SI",
+        "Desde": "23-ago-2008",
+        "Hasta": "...",
+        "Detalle": ""
+      }
+    ]
+  },
+  "exportaciones": {
+    "indice_alfabetico": [
+      {
+        "Termino clave": "Calzado de cuero natural, que cubran el tobillo, suela de caucho, plástico o cuero natural",
+        "Desde": "01-ene-2007",
+        "Hasta": "..."
+      },
+      {
+        "Termino clave": "Zapatos de cuero natural, que cubran el tobillo, suela de caucho, plástico o cuero natural",
+        "Desde": "01-ene-2007",
+        "Hasta": "..."
+      }
+    ],
+    "documentos": [
+      {
+        "Documento - Entidad": "Permiso CITES - Ministerio De Ambiente Y Desarrollo Sostenible",
+        "Trámite": "PREVIO",
+        "Requisito": "OPCIONAL",
+        "Electrónico": "NO",
+        "Desde": "28-ene-2022",
+        "Hasta": "...",
+        "Paises": ""
+      }
+    ],
+    "descripciones": [
+      {
+        "Orden": "1",
+        "Código": "73",
+        "Descripción": "Nombre Comercial",
+        "Tipo de dato": "TEXTO",
+        "Longitud": "60",
+        "Decimales": "",
+        "Obligatorio": "SI",
+        "Desde": "23-ago-2008",
+        "Hasta": "...",
+        "Detalle": ""
+      },
+      {
+        "Orden": "2",
+        "Código": "74",
+        "Descripción": "Otras características",
+        "Tipo de dato": "TEXTO",
+        "Longitud": "4000",
+        "Decimales": "",
+        "Obligatorio": "SI",
+        "Desde": "23-ago-2008",
+        "Hasta": "...",
+        "Detalle": ""
+      },
+      {
+        "Orden": "3",
+        "Código": "1716",
+        "Descripción": "Cantidad de unidades comerciales",
+        "Tipo de dato": "TEXTO",
+        "Longitud": "60",
+        "Decimales": "",
+        "Obligatorio": "NO",
+        "Desde": "23-ago-2008",
+        "Hasta": "...",
+        "Detalle": ""
+      }
+    ]
+  }
+}

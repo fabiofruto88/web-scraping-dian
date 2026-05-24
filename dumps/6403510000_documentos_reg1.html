@@ -1,0 +1,286 @@
+
+
+
+
+
+    
+    
+
+    <html>
+        <head><title>DIAN - MUISCA</title>
+        <link href="/WebArancel/estilos/tabla.css" rel="stylesheet" type="text/css"/>
+        <link href="/WebArancel/estilos/arancel.css" rel="stylesheet" type="text/css"/>
+        <link href="/WebArancel/estilos/tree.css" rel="stylesheet" type="text/css"/>
+        <link href="/WebArancel/estilos/popUpPerfil.css" rel="stylesheet" type="text/css"/>
+
+        <script type="text/javascript" src="/WebArancel/funciones/AdmTabla.js"></script>
+        <script type="text/javascript" src="/WebArancel/funciones/Hashtable.js"></script>
+        <script type="text/javascript" src="/WebArancel/funciones/AdmCalendario.js"></script>
+        <script type="text/javascript" src="/WebArancel/funciones/AdmFabricaMensajes.js"></script>
+        <script type="text/javascript" src="/WebArancel/funciones/AdmMensajes.js"></script>
+        <script type="text/javascript" src="/WebArancel/funciones/AdmValidaciones.js"></script>
+        <script type="text/javascript" src="/WebArancel/funciones/funcArancel.js"></script>
+        <script type="text/javascript" src="/WebArancel/funciones/tooltip.js"></script>
+
+</head>
+
+<body bgcolor="#ffffff">
+<table border="0" align="center">
+<tr>
+  <td>
+    <table>
+<tbody>
+<tr>
+<td><script type="text/javascript" src="/WebArancel/funciones/tooltip.js"></script>
+      <script type="text/javascript">
+
+      function mostrarPaises(nombre){
+        document.getElementById("vistaDocumentosSoporte:formDocumentosSoporte:ideDocumento").value=nombre;
+        document.getElementById("vistaDocumentosSoporte:formDocumentosSoporte:lnkConsultarPaises").onclick();
+        return false;
+      }
+
+      function desabilitar(valor){
+        if(valor=='T'){
+          document.getElementById("vistaDocumentosSoporte:formDocumentosSoporte:nombreLugar").disabled=true;
+        }else{
+          document.getElementById("vistaDocumentosSoporte:formDocumentosSoporte:nombreLugar").disabled=false;
+        }
+      }
+
+      function validarNombreLugar(){
+         if(!document.getElementById("vistaDocumentosSoporte:formDocumentosSoporte:nombreLugar").disabled){
+           if(document.getElementById("vistaDocumentosSoporte:formDocumentosSoporte:nombreLugar").value.length >= 2){
+             return true;
+           }else{
+             var unaFabricaMensajes = new DFabricaMensajes();
+             var unMensaje = unaFabricaMensajes.getMensaje(0,COD_TIPO_ERROR,"Consulta por pais","Ingrese mínimo 2 letras","Error");
+             miGestorMensajes.agregarMensaje(unMensaje);
+             miGestorMensajes.mostrarMensaje();
+             return false;
+           }
+         }else{
+           return true;
+         }
+       }
+
+      </script></td>
+</tr>
+</tbody>
+</table>
+<form id="vistaDocumentosSoporte:formDocumentosSoporte" method="post" action="/WebArancel/DefDocumentosPopUp.faces" enctype="application/x-www-form-urlencoded">
+<a id="vistaDocumentosSoporte:formDocumentosSoporte:lnkConsultarPaises" href="#" onclick="document.forms['vistaDocumentosSoporte:formDocumentosSoporte']['vistaDocumentosSoporte:formDocumentosSoporte:_idcl'].value='vistaDocumentosSoporte:formDocumentosSoporte:lnkConsultarPaises'; document.forms['vistaDocumentosSoporte:formDocumentosSoporte'].submit();return false;"></a><input id="vistaDocumentosSoporte:formDocumentosSoporte:ideDocumento" type="hidden" name="vistaDocumentosSoporte:formDocumentosSoporte:ideDocumento" /><table width='1000pt' cellpadding='0' cellspacing='0' border='0'>
+      <tr>
+        <td class='supTablaPopUpIzq'> &nbsp; </td>
+        <td class='supTablaPopUpCenDocSop'>Documentos soporte  para importaciones &#8211; 6403510000</td>
+        <td class='supTablaPopUpDer'><input type="image" src="/WebArancel/imagenes/es/botonesTexto/botcerrarventana.gif" name="vistaDocumentosSoporte:formDocumentosSoporte:_id15" border="0" onmouseout="this.src='/WebArancel/imagenes/es/botonesTexto/botcerrarventana.gif';null" onmouseover="this.src='/WebArquitectura/imagenes/es/botones/botrollover.gif';null" onclick="window.close();return false;" /></td>
+      </tr>
+      <tr>
+        <td colspan='3'><table id="vistaDocumentosSoporte:formDocumentosSoporte:tblMedidas" class="consulta" border="0">
+<thead>
+<tr>
+<th class="thConsultaNorm" scope="col">Documento - Entidad</th>
+<th class="thConsultaNorm" scope="col">Tr&aacute;mite</th>
+<th class="thConsultaNorm" scope="col">Requisito</th>
+<th class="thConsultaNorm" scope="col">Electr&oacute;nico</th>
+<th class="thConsultaNorm" scope="col">Desde</th>
+<th class="thConsultaNorm" scope="col">Hasta</th>
+<th class="thConsultaNorm" scope="col">Paises</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tdtextoAncho300"><span>ETIQUETADO - </span></td>
+<td class="tdtextoAncho100"><span>PREVIO</span></td>
+<td class="tdtextoAncho100"><span>OPCIONAL</span></td>
+<td class="tdtextoAncho50"><span>NO</span></td>
+<td class="tdFechas"><span>01-ene-2017</span></td>
+<td class="tdFechas"><span>...</span></td>
+<td class="tdSopPais"><input id="vistaDocumentosSoporte:formDocumentosSoporte:tblMedidas:0:btConPais" type="image" src="/WebArancel/imagenes/es/botones/botpais.gif" name="vistaDocumentosSoporte:formDocumentosSoporte:tblMedidas:0:btConPais" border="0" onmouseout="this.src='/WebArancel/imagenes/es/botones/botpais.gif';toolTip()" onmouseover="this.src='/WebArancel/imagenes/es/botones/botmuis20.gif';toolTip(this, 'Paises', {width: 150, bgColor: '#FFFFFF'})" onclick="mostrarPaises('795');return false;" onmouseout="toolTip()" onmouseover="toolTip(this, 'Paises', {width: 150, bgColor: '#FFFFFF'})" /></td>
+</tr>
+<tr>
+<td class="tdtextoAncho300"><span>Inscripcion Registro de fabricantes e importadores de SIC - </span></td>
+<td class="tdtextoAncho100"><span>PREVIO</span></td>
+<td class="tdtextoAncho100"><span>OPCIONAL</span></td>
+<td class="tdtextoAncho50"><span>NO</span></td>
+<td class="tdFechas"><span>01-ene-2017</span></td>
+<td class="tdFechas"><span>...</span></td>
+<td class="tdSopPais"><input id="vistaDocumentosSoporte:formDocumentosSoporte:tblMedidas:1:btConPais" type="image" src="/WebArancel/imagenes/es/botones/botpais.gif" name="vistaDocumentosSoporte:formDocumentosSoporte:tblMedidas:1:btConPais" border="0" onmouseout="this.src='/WebArancel/imagenes/es/botones/botpais.gif';toolTip()" onmouseover="this.src='/WebArancel/imagenes/es/botones/botmuis20.gif';toolTip(this, 'Paises', {width: 150, bgColor: '#FFFFFF'})" onclick="mostrarPaises('776');return false;" onmouseout="toolTip()" onmouseover="toolTip(this, 'Paises', {width: 150, bgColor: '#FFFFFF'})" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+      </tr>
+      <tr>
+        <td class='infTablaPopUpIzq'/>
+        <td class='infTablaPopUpCen'/>
+        <td class='infTablaPopUpDer'/>
+      </tr>
+</table> <input type="hidden" name="com.sun.faces.VIEW" value="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" />
+ <input type="hidden" name="vistaDocumentosSoporte:formDocumentosSoporte" id="vistaDocumentosSoporte:formDocumentosSoporte" value="vistaDocumentosSoporte:formDocumentosSoporte" /><input type="hidden" name="vistaDocumentosSoporte:formDocumentosSoporte:_idcl" id="vistaDocumentosSoporte:formDocumentosSoporte:_idcl" /></form>
+
+
+
+
+
+  
+    
+  
+
+  
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    
+              
+        
+
+          
+
+          
+
+          
+
+          
+          
+            
+          
+          
+        
+
+        
+          
+            
+          
+          
+        
+
+        
+          
+            
+          
+          
+        
+
+        
+          
+            
+          
+          
+        
+
+        
+          
+            
+          
+          
+        
+
+        
+          
+            
+          
+          
+        
+
+        
+          
+            
+          
+          
+        
+
+          
+
+          
+
+ 
+
+    
+
+
+      
+
+            
+
+            
+
+            
+              
+              
+              
+              
+              
+              
+              
+              
+            
+
+            
+              
+
+              
+                
+              
+
+              
+              
+                
+              
+            
+
+
+            
+
+            
+              
+                
+              
+              
+            
+
+            
+              
+                
+              
+              
+            
+
+              
+
+            
+
+            
+          
+          
+
+    
+
+   
+
+
+
+  </td>
+</tr>
+</table>
+
+<script type="text/javascript">manejarMensajes();</script>
+
+</body>
+    </html>
+
+
+

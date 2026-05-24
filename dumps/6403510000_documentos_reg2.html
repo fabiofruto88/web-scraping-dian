@@ -1,0 +1,277 @@
+
+
+
+
+
+    
+    
+
+    <html>
+        <head><title>DIAN - MUISCA</title>
+        <link href="/WebArancel/estilos/tabla.css" rel="stylesheet" type="text/css"/>
+        <link href="/WebArancel/estilos/arancel.css" rel="stylesheet" type="text/css"/>
+        <link href="/WebArancel/estilos/tree.css" rel="stylesheet" type="text/css"/>
+        <link href="/WebArancel/estilos/popUpPerfil.css" rel="stylesheet" type="text/css"/>
+
+        <script type="text/javascript" src="/WebArancel/funciones/AdmTabla.js"></script>
+        <script type="text/javascript" src="/WebArancel/funciones/Hashtable.js"></script>
+        <script type="text/javascript" src="/WebArancel/funciones/AdmCalendario.js"></script>
+        <script type="text/javascript" src="/WebArancel/funciones/AdmFabricaMensajes.js"></script>
+        <script type="text/javascript" src="/WebArancel/funciones/AdmMensajes.js"></script>
+        <script type="text/javascript" src="/WebArancel/funciones/AdmValidaciones.js"></script>
+        <script type="text/javascript" src="/WebArancel/funciones/funcArancel.js"></script>
+        <script type="text/javascript" src="/WebArancel/funciones/tooltip.js"></script>
+
+</head>
+
+<body bgcolor="#ffffff">
+<table border="0" align="center">
+<tr>
+  <td>
+    <table>
+<tbody>
+<tr>
+<td><script type="text/javascript" src="/WebArancel/funciones/tooltip.js"></script>
+      <script type="text/javascript">
+
+      function mostrarPaises(nombre){
+        document.getElementById("vistaDocumentosSoporte:formDocumentosSoporte:ideDocumento").value=nombre;
+        document.getElementById("vistaDocumentosSoporte:formDocumentosSoporte:lnkConsultarPaises").onclick();
+        return false;
+      }
+
+      function desabilitar(valor){
+        if(valor=='T'){
+          document.getElementById("vistaDocumentosSoporte:formDocumentosSoporte:nombreLugar").disabled=true;
+        }else{
+          document.getElementById("vistaDocumentosSoporte:formDocumentosSoporte:nombreLugar").disabled=false;
+        }
+      }
+
+      function validarNombreLugar(){
+         if(!document.getElementById("vistaDocumentosSoporte:formDocumentosSoporte:nombreLugar").disabled){
+           if(document.getElementById("vistaDocumentosSoporte:formDocumentosSoporte:nombreLugar").value.length >= 2){
+             return true;
+           }else{
+             var unaFabricaMensajes = new DFabricaMensajes();
+             var unMensaje = unaFabricaMensajes.getMensaje(0,COD_TIPO_ERROR,"Consulta por pais","Ingrese mínimo 2 letras","Error");
+             miGestorMensajes.agregarMensaje(unMensaje);
+             miGestorMensajes.mostrarMensaje();
+             return false;
+           }
+         }else{
+           return true;
+         }
+       }
+
+      </script></td>
+</tr>
+</tbody>
+</table>
+<form id="vistaDocumentosSoporte:formDocumentosSoporte" method="post" action="/WebArancel/DefDocumentosPopUp.faces" enctype="application/x-www-form-urlencoded">
+<a id="vistaDocumentosSoporte:formDocumentosSoporte:lnkConsultarPaises" href="#" onclick="document.forms['vistaDocumentosSoporte:formDocumentosSoporte']['vistaDocumentosSoporte:formDocumentosSoporte:_idcl'].value='vistaDocumentosSoporte:formDocumentosSoporte:lnkConsultarPaises'; document.forms['vistaDocumentosSoporte:formDocumentosSoporte'].submit();return false;"></a><input id="vistaDocumentosSoporte:formDocumentosSoporte:ideDocumento" type="hidden" name="vistaDocumentosSoporte:formDocumentosSoporte:ideDocumento" /><table width='1000pt' cellpadding='0' cellspacing='0' border='0'>
+      <tr>
+        <td class='supTablaPopUpIzq'> &nbsp; </td>
+        <td class='supTablaPopUpCenDocSop'>Documentos soporte  para exportaciones &#8211; 6403510000</td>
+        <td class='supTablaPopUpDer'><input type="image" src="/WebArancel/imagenes/es/botonesTexto/botcerrarventana.gif" name="vistaDocumentosSoporte:formDocumentosSoporte:_id15" border="0" onmouseout="this.src='/WebArancel/imagenes/es/botonesTexto/botcerrarventana.gif';null" onmouseover="this.src='/WebArquitectura/imagenes/es/botones/botrollover.gif';null" onclick="window.close();return false;" /></td>
+      </tr>
+      <tr>
+        <td colspan='3'><table id="vistaDocumentosSoporte:formDocumentosSoporte:tblMedidas" class="consulta" border="0">
+<thead>
+<tr>
+<th class="thConsultaNorm" scope="col">Documento - Entidad</th>
+<th class="thConsultaNorm" scope="col">Tr&aacute;mite</th>
+<th class="thConsultaNorm" scope="col">Requisito</th>
+<th class="thConsultaNorm" scope="col">Electr&oacute;nico</th>
+<th class="thConsultaNorm" scope="col">Desde</th>
+<th class="thConsultaNorm" scope="col">Hasta</th>
+<th class="thConsultaNorm" scope="col">Paises</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tdtextoAncho300"><span>Permiso CITES - Ministerio De Ambiente Y  Desarrollo Sostenible</span></td>
+<td class="tdtextoAncho100"><span>PREVIO</span></td>
+<td class="tdtextoAncho100"><span>OPCIONAL</span></td>
+<td class="tdtextoAncho50"><span>NO</span></td>
+<td class="tdFechas"><span>28-ene-2022</span></td>
+<td class="tdFechas"><span>...</span></td>
+<td class="tdSopPais"><input id="vistaDocumentosSoporte:formDocumentosSoporte:tblMedidas:0:btConPais" type="image" src="/WebArancel/imagenes/es/botones/botpais.gif" name="vistaDocumentosSoporte:formDocumentosSoporte:tblMedidas:0:btConPais" border="0" onmouseout="this.src='/WebArancel/imagenes/es/botones/botpais.gif';toolTip()" onmouseover="this.src='/WebArancel/imagenes/es/botones/botmuis20.gif';toolTip(this, 'Paises', {width: 150, bgColor: '#FFFFFF'})" onclick="mostrarPaises('826');return false;" onmouseout="toolTip()" onmouseover="toolTip(this, 'Paises', {width: 150, bgColor: '#FFFFFF'})" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+      </tr>
+      <tr>
+        <td class='infTablaPopUpIzq'/>
+        <td class='infTablaPopUpCen'/>
+        <td class='infTablaPopUpDer'/>
+      </tr>
+</table> <input type="hidden" name="com.sun.faces.VIEW" value="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" />
+ <input type="hidden" name="vistaDocumentosSoporte:formDocumentosSoporte" id="vistaDocumentosSoporte:formDocumentosSoporte" value="vistaDocumentosSoporte:formDocumentosSoporte" /><input type="hidden" name="vistaDocumentosSoporte:formDocumentosSoporte:_idcl" id="vistaDocumentosSoporte:formDocumentosSoporte:_idcl" /></form>
+
+
+
+
+
+  
+    
+  
+
+  
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    
+              
+        
+
+          
+
+          
+
+          
+
+          
+          
+            
+          
+          
+        
+
+        
+          
+            
+          
+          
+        
+
+        
+          
+            
+          
+          
+        
+
+        
+          
+            
+          
+          
+        
+
+        
+          
+            
+          
+          
+        
+
+        
+          
+            
+          
+          
+        
+
+        
+          
+            
+          
+          
+        
+
+          
+
+          
+
+ 
+
+    
+
+
+      
+
+            
+
+            
+
+            
+              
+              
+              
+              
+              
+              
+              
+              
+            
+
+            
+              
+
+              
+                
+              
+
+              
+              
+                
+              
+            
+
+
+            
+
+            
+              
+                
+              
+              
+            
+
+            
+              
+                
+              
+              
+            
+
+              
+
+            
+
+            
+          
+          
+
+    
+
+   
+
+
+
+  </td>
+</tr>
+</table>
+
+<script type="text/javascript">manejarMensajes();</script>
+
+</body>
+    </html>
+
+
+
